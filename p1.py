@@ -5,10 +5,7 @@ nums =[]
 
 for i in range(1, 1000):
 	if i not in nums:
-		if i % 3 == 0:
-			nums.append(i)
-	if i not in nums:
-		if i % 5 == 0:
+		if i % 3 == 0 or if i % 5 == 0::
 			nums.append(i)
 
 print(sum(nums))
