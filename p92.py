@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
 
+# A number chain is created by continuously adding the square of the digits
+# in a number to form a new number until it has been seen before.
+# How many starting numbers below ten million will arrive at 89?
+
 res = []
 
 for i in range(10_000_000):
